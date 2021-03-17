@@ -43,7 +43,7 @@ export default function Header(){
             </div>
             <div className={"header__right"}>
                 <div className={"header__info"}>
-                    <Avatar/>
+                    <Avatar src={"https://avatars.githubusercontent.com/u/36926841?s=460&v=4"}/>
                     <h4>Karol Szczepaniec</h4>
                 </div>
 
