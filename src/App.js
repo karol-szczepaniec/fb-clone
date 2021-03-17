@@ -4,7 +4,7 @@ import Sidebar from "./components/Sidebar";
 import Feed from "./components/Feed";
 import Widgets from "./components/Widgets";
 
-function App() {
+export default function App() {
   return (
     <div className="app">
         <Header/>
@@ -16,4 +16,3 @@ function App() {
     </div>
   );
 }
-export default App;
