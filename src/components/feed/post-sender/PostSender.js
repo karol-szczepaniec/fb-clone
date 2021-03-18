@@ -1,12 +1,12 @@
 import React, {useState} from "react";
-import "../style/PostSender.css"
+import "../../../style/feed/post-sender/PostSender.css"
 import {Avatar} from "@material-ui/core";
 import VideocamIcon from "@material-ui/icons/Videocam";
 import PhotoLibraryIcon from "@material-ui/icons/PhotoLibrary";
 import InsertEmoticonIcon from "@material-ui/icons/InsertEmoticon";
-import {useStateValue} from "../Common/StateProvider";
+import {useStateValue} from "../../../Common/StateProvider";
 import firebase from "firebase";
-import db from "../services/firebase"
+import db from "../../../services/firebase"
 
 export default function PostSender(){
     const [input, setInput] = useState("");

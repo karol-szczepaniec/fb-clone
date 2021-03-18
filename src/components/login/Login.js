@@ -1,9 +1,9 @@
 import React from "react";
-import "../style/Login.css"
+import "../../style/login/Login.css"
 import {Button} from "@material-ui/core";
-import {auth, provider} from "../services/firebase"
-import {useStateValue} from "../Common/StateProvider";
-import {actionTypes} from "../Common/reducer";
+import {auth, provider} from "../../services/firebase"
+import {useStateValue} from "../../Common/StateProvider";
+import {actionTypes} from "../../Common/reducer";
 
 export default function Login(){
 

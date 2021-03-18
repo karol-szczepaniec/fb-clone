@@ -1,9 +1,9 @@
 import React, {useEffect, useState} from "react";
-import "../style/Feed.css"
-import StoryReel from "./StoryReel";
-import PostSender from "./PostSender";
-import Post from "./Post";
-import db from "../services/firebase"
+import "../../style/feed/Feed.css"
+import StoryReel from "./story-reel/StoryReel";
+import PostSender from "./post-sender/PostSender";
+import Post from "./post/Post";
+import db from "../../services/firebase"
 
 export default function Feed(){
 

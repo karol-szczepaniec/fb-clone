@@ -1,9 +1,9 @@
 import "./App.css"
-import Header from "./components/Header";
-import Sidebar from "./components/Sidebar";
-import Feed from "./components/Feed";
-import Widgets from "./components/Widgets";
-import Login from "./components/Login";
+import Header from "./components/header/Header";
+import Sidebar from "./components/sidebar/Sidebar";
+import Feed from "./components/feed/Feed";
+import Widgets from "./components/widgets/Widgets";
+import Login from "./components/login/Login";
 import {useStateValue} from "./Common/StateProvider";
 
 export default function App() {

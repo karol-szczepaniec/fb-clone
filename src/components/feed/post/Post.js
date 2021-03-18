@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/Post.css"
+import "../../../style/feed/post/Post.css"
 import {Avatar} from "@material-ui/core";
 import ThumbUpIcon from "@material-ui/icons/ThumbUp";
 import ChatBubbleOutlineIcon from "@material-ui/icons/ChatBubbleOutline";

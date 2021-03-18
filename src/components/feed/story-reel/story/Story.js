@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/Story.css"
+import "../../../../style/feed/story-reel/story/Story.css"
 import {Avatar} from "@material-ui/core";
 
 export default function Story({ image, profileSrc, title}){
