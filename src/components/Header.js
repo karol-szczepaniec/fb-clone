@@ -11,8 +11,10 @@ import SubscriptionsOutlinedIcon from '@material-ui/icons/SubscriptionsOutlined'
 import StorefrontOutlinedIcon from '@material-ui/icons/StorefrontOutlined';
 import SupervisedUserCircleIcon from '@material-ui/icons/SupervisedUserCircle';
 import {Avatar, IconButton} from "@material-ui/core";
+import {useStateValue} from "../Common/StateProvider";
 
 export default function Header(){
+    const [{user}, dispatch] = useStateValue();
     return(
         <div className={"header"}>
             <div className={"header__left"}>
@@ -43,8 +45,8 @@ export default function Header(){
             </div>
             <div className={"header__right"}>
                 <div className={"header__info"}>
-                    <Avatar src={"https://avatars.githubusercontent.com/u/36926841?s=460&v=4"}/>
-                    <h4>Karol Szczepaniec</h4>
+                    <Avatar src={user.photoURL}/>
+                    <h4>{user.displayName}</h4>
                 </div>
 
                 <IconButton>

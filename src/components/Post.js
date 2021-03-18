@@ -14,15 +14,14 @@ export default function Post({profileSrc, image, username, timestamp, message}){
                 <Avatar src={profileSrc} className={"post__avatar"}/>
                 <div className={"post__topInfo"}>
                     <h3>{username}</h3>
-                    {/*<p>{new Date(timestamp?.toDate()).toUTCString()}</p>*/}
-                    <p>Timestamp...</p>
+                    <p>{new Date(timestamp?.toDate()).toUTCString()}</p>
                 </div>
             </div>
             <div className={"post__bottom"}>
                 <p>{message}</p>
             </div>
             <div className={"post__image"}>
-                <img src={image} alt={"post image"}/>
+                <img src={image} alt={""}/>
             </div>
             <div className={"post__options"}>
                 <div className={"post__option"}>
